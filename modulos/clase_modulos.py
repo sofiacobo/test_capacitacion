@@ -42,11 +42,11 @@
 # df = pd.DataFrame(data) #se crea un objeto del tipo dataframe
 # print(df)
 
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
-API_KEY = os.getenv("API_KEY")
-USUARIO = os.getenv("USUARIO")
-PASSWORD = os.getenv("PASSWORD")
+# API_KEY = os.getenv("API_KEY")
+# USUARIO = os.getenv("USUARIO")
+# PASSWORD = os.getenv("PASSWORD")
