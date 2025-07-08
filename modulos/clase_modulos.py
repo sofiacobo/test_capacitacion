@@ -37,16 +37,18 @@
 
 # import pandas as pd
 
-# data = {"Nombre": ["Juan", "Jose", "Ana"], "Edad" : [30,25,35]}
+# data = {"Nombre": ["Juan", "Jose", "Ana"], "Edad" : [30,25,35]} #crea un diccionario
 
-# df = pd.DataFrame(data) #se crea un objeto del tipo dataframe
+# df = pd.DataFrame(data) #llamo al modelo pandas y se crea un objeto del tipo dataframe
 # print(df)
 
-# import os
-# from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv() #carga las variables del entorno del archivo .env
 
-# API_KEY = os.getenv("API_KEY")
-# USUARIO = os.getenv("USUARIO")
-# PASSWORD = os.getenv("PASSWORD")
+API_KEY = os.getenv("API_KEY") #obtiene los datos del env
+USUARIO = os.getenv("USUARIO")
+PASSWORD = os.getenv("PASSWORD")
+
+# print(f"Api Key: {API_KEY}")
